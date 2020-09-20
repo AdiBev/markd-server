@@ -6,5 +6,11 @@ export class BookmarkType {
   id: string;
 
   @Field()
+  name: string;
+
+  @Field()
   url: string;
+
+  @Field()
+  folder: string;
 }
